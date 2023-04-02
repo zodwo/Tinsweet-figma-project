@@ -1,0 +1,1039 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sen:wght@400;700;800&display=swap');
+
+/*! ---------------------------HAMBURGER MENU-------------------------------- */
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.for-pc {
+    display: none;
+}
+
+.for-mobile-not-pc {
+    display: block;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5625em;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #232536;
+}
+
+header .container {
+    display: flex;
+    background: #232536;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+}
+
+.hamburger .line {
+    height: 3px;
+    width: 30px;
+    margin-bottom: 4px;
+    background-color: #fff;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 0px;
+    height: 100vh;
+    background-color: #232536;
+    gap: 10px;
+    overflow: hidden;
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.nav-bar li {
+    margin-top: 20px;
+    transition: 0.4s;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav-bar li a {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 28px;
+}
+
+.nav-bar.active {
+    width: 110px;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.li-button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    max-width: 200px;
+    width: 100%;
+    height: 36px;
+}
+
+.li-button a {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 1.125em;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #232536 !important;
+}
+
+/*! ---------------------------HAMBURGER MENU-------------------------------- */
+
+
+
+
+
+
+
+
+/* -----------------------PAGE WRAPPER 1--------------------------------- */
+
+.bg-wrapper {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.text-wrapper {
+    max-width: 803px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-header span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: .1875em;
+    color: #fff;
+}
+
+.text-header .st {
+    font-weight: 900;
+}
+
+.text-header h1 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.text-description {
+    margin-top: 24px;
+}
+
+.text-description span {
+    font-family: 'Inter';
+    font-size: 1em;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.text-description span span {
+    color: #FFD050;
+}
+
+.text-description p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 204px;
+    height: 56px;
+    background: #FFD050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    border: 0;
+
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+}
+
+/** -----------------------PAGE WRAPPER 1--------------------------------- */
+
+
+
+
+
+
+
+
+/* -----------------------PAGE WRAPPER 2--------------------------------- */
+
+
+.two-nd-of-page {
+    margin-top: 28px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.col-text-header {
+    text-align: center;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-bottom: 32px;
+}
+
+.col-img-text {
+    padding: 12px;
+    border: 1px solid #f1f1f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-img-text img {
+    max-width: 669px;
+    width: 100%;
+    height: 352px;
+    border-radius: 3px 3px 0 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.text span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: .875em;
+    color: #4C4C4C;
+}
+
+.text span span {
+    color: #592EA9;
+}
+
+.text h3 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.75em;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+
+.text p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+/* Col 2 */
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.col-2-header h2 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+.col-2-header a {
+    font-family: 'Inter';
+    font-size: 1em;
+    color: #592EA9;
+}
+
+.card-col {
+    margin-top: 32px;
+    padding: 32px 32px 25px 32px;
+}
+
+.card-col:nth-child(3) {
+    background: #FBF6EA;
+}
+
+.by {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: .875em;
+    color: #4C4C4C;
+}
+
+.jh {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: .875em;
+    color: #592EA9;
+}
+
+.h4 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 32px;
+    color: #232536;
+}
+
+/** ----------------------PAGE WRAPPER 2 END--------------------------------- */
+
+
+
+
+
+
+
+/* -----------------------PAGE WRAPPER 3--------------------------------- */
+
+.tree-nd-of-page {
+    margin-top: 70px;
+}
+
+.col-header2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
+
+.h2 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+.p {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 30px;
+    gap: 50px;
+    background: #F4F0F8;
+}
+
+.row .col1,
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 515px;
+    width: 100%;
+    min-height: 308px;
+    text-align: center;
+}
+
+.row a {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+
+/* *----------------------PAGE WRAPPER 3 END--------------------------------- */
+
+
+
+/* -----------------------PAGE WRAPPER 4------------------------------------- */
+.choose-category-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card-wrapper {
+    margin-top: 48px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    max-width: 48px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #FBF6EA;
+    margin-bottom: 20px;
+}
+
+.card:nth-child(2) {
+    background: #FFD050;
+}
+
+.card {
+    min-width: 10px;
+    min-height: 230px;
+    padding: 32px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d4d6;
+}
+
+
+.card h3 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.75em;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/** ----------------------PAGE WRAPPER 4 END--------------------------------- */
+
+
+
+
+/*----------------------PAGE WRAPPER 5--------------------------------- */
+
+.five-th-of-page-wrapper {
+    margin-top: 40px;
+    height: 705px;
+    background: url(/img/bg2.jpg) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.card-box {
+    max-width: 706px;
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-box-header{
+    text-align: center;
+}
+.card-box-header span {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
+
+.card-box-text-wrapper .button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-box-text-wrapper h1 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+/**----------------------PAGE WRAPPER 5 End------------------------------ */
+
+
+/*----------------------PAGE WRAPPER 6------------------------------ */
+.list-of-authors-wrapper {
+    margin-top: 40px;
+}
+
+.author-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media (max-width:550px) {
+    .author-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+
+.author-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.author-card {
+    min-width: 0px;
+    min-height: 324px;
+    padding: 40px;
+    background: #F4F4F4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+
+}
+
+.picture img {
+    border-radius: 50%;
+}
+
+.name h3 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.75em;
+    letter-spacing: -1px;
+    color: #232536;
+}
+
+.name-content {
+    font-family: 'Inter';
+    font-size: .875em;
+    text-align: center;
+    color: #6D6E76;
+}
+
+.socials-wrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+/**----------------------PAGE WRAPPER 6 End------------------------------ */
+
+/* ----------------------PAGE WRAPPER 7 ---------------------------- */
+
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.logo-text-wrapper span:first-child {
+    font-family: 'Inter';
+    font-size: .875em;
+    color: #6D6E76;
+    opacity: 0.6;
+}
+
+.logo-text-wrapper span:last-child {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #6D6E76;
+}
+
+.logo-img-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10px;
+    gap: 10px;
+}
+
+.logo-img-wrapper img {
+    width: 120px;
+    min-width: 120px;
+}
+
+/** ----------------------PAGE WRAPPER 7 END---------------------------- */
+
+/* ----------------------PAGE WRAPPER 8 ---------------------------- */
+
+.bottom-card-wrapper {
+    margin-top: 96px;
+    background: #FBF6EA;
+    min-height: 464px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.bottom-text-wrapper{
+    max-width: 420px;
+    width: 100%;
+}
+.bottom-header {
+    text-align: center;
+}
+
+.bottom-header span {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
+
+.bottom-col {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.line4 {
+    border: 1px solid #6D6E76;
+    height: 310px;
+    margin: 20px;
+    opacity: .3;
+}
+
+.bottom-col-2 {
+    max-width: 570px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-col-2 h4 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #232536;
+    max-width: 400px;
+    width: 100%;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 80px;
+    width: 100%;
+}
+
+@media (max-width:450px) {
+    .user-profile {
+        flex-direction: column;
+    }
+}
+
+.user-profile img {
+    border-radius: 100%;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.curcle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.curcle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    background-color: #232536;
+}
+
+.curcle2 img {
+    position: relative;
+    bottom: -4px;
+}
+
+
+/** ----------------------PAGE WRAPPER 8 END---------------------------- */
+
+/*!-------------------------Burger menu-------------------------------------- */
+@media (min-width:768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-bar {
+        position: inherit;
+        top: inherit;
+        right: inherit;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow: inherit;
+        height: inherit;
+        width: 560px;
+        opacity: 1;
+        gap: 20px;
+    }
+
+    .nav-bar.active {
+        width: 560px;
+    }
+
+    .nav-bar li {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+
+    .li-button {
+        justify-content: center;
+    }
+
+    .for-pc {
+        display: block;
+    }
+
+    .for-mobile-not-pc {
+        display: none;
+    }
+
+    /*!-----------------------Burger Menu------------------------------------ */
+
+
+    /* ----------------------PAGE WRAPPER 1--------------------------------- */
+    .bg-wrapper {
+        height: 720px;
+        padding: 120px 81px;
+    }
+
+    .text-wrapper {
+        align-items: inherit;
+    }
+
+    .text-header h1 {
+        font-size: 56px;
+        margin-top: 24px;
+    }
+
+    /**----------------------PAGE WRAPPER 1--------------------------------- */
+
+
+
+    /* -----------------------PAGE WRAPPER 2--------------------------------- */
+    .col {
+        align-items: inherit;
+    }
+
+    .col-text-header {
+        text-align: inherit;
+        font-size: 2.25em;
+    }
+
+    .col-img-text {
+        padding: 32px;
+        align-items: inherit;
+    }
+
+    .two-nd-of-page {
+        display: flex;
+        margin-top: 128px;
+    }
+
+    .col-2 {
+        align-items: inherit;
+    }
+
+    .col-2-header h2 {
+        font-size: 2.25em;
+    }
+
+    .col-2-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /**----------------------PAGE WRAPPER 2 END----------------------------- */
+
+
+
+    /* ----------------------PAGE WRAPPER 3 -------------------------------- */
+    .five-th-of-page-wrapper {
+        margin-top: 128px;
+    }
+
+    .tree-nd-of-page {
+        margin-top: 128px;
+    }
+
+    .top-img-design {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .line1 {
+        max-width: 779px;
+        width: 100%;
+        height: 23px;
+        background: #FFD050;
+    }
+
+    .line2 {
+        max-width: 282px;
+        width: 100%;
+        height: 23px;
+        background: #592EA9;
+    }
+
+    .h2 {
+        font-size: 2.25em;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: inherit;
+        padding: 96px 80px;
+        gap: 50px;
+        background: #F4F0F8;
+    }
+
+    .row .col1,
+    .col2 {
+        text-align: inherit;
+        align-items: inherit;
+    }
+
+    .row a {
+        text-align: inherit;
+    }
+
+    .card-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /** ----------------------PAGE WRAPPER 3 END----------------------------- */
+
+
+    /* -------------------------PAGE WRAPPER 5  ----------------------------- */
+
+    .choose-category-wrapper {
+        margin-top: 128px;
+    }
+
+    .card-wrapper {
+        gap: 20px;
+    }
+
+    .card-box {
+        padding: 80px;
+        margin-left: 220px;
+    }
+
+    .five-th-of-page-wrapper {
+        height: 705px;
+        background: url(/img/bg2.jpg) no-repeat;
+    }
+
+    .card-box-text-wrapper h1 {
+        font-size: 3em;
+    }
+
+    .card-box-text-wrapper .button {
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    /** ----------------------PAGE WRAPPER 5  END---------------------------- */
+
+
+
+    /* ----------------------PAGE WRAPPER 6 ---------------------------- */
+
+    .list-of-authors-wrapper {
+        margin-top: 128px;
+    }
+
+    .author-card-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    /** ----------------------PAGE WRAPPER 6  END---------------------------- */
+
+    /* ----------------------PAGE WRAPPER 7 ---------------------------- */
+
+
+    .logo-wrapper {
+        margin-top: 70px;
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .logo-img-wrapper {
+        flex-direction: row;
+        min-width: 10px;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .logo-img-wrapper img {
+        max-width: 450px;
+        min-width: 10px;
+    }
+
+
+    /** ----------------------PAGE WRAPPER 7 END---------------------------- */
+
+
+    /* ----------------------PAGE WRAPPER 8 ---------------------------- */
+
+
+    .bottom-card-wrapper {
+        flex-direction: row;
+    }
+
+    .user-profile {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .unames {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bottom-col {
+        max-width: 349px;
+    }
+
+    .bottom-header {
+        text-align: inherit;
+    }
+
+    .card-box-header{
+        text-align: inherit;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /** ----------------------PAGE WRAPPER 8 END---------------------------- */
+
+}
