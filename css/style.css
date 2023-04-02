@@ -79,10 +79,11 @@ header .container {
     font-weight: 400;
     font-size: 1em;
     line-height: 28px;
+
 }
 
 .nav-bar.active {
-    width: 110px;
+    width: 210px;
     transition: 0.6s;
     opacity: 1;
 }
@@ -807,6 +808,7 @@ footer {
     margin: auto;
     margin-top: 40px;
     gap: 20px;
+    text-align: center;
 }
 
 .footer-nav-bar li a {

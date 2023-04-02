@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sen:wght@400;700;800&display=swap');
+
+/*! ---------------------------HAMBURGER MENU-------------------------------- */
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.for-pc {
+    display: none;
+}
+
+.for-mobile-not-pc {
+    display: block;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5625em;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #232536;
+    z-index: 4;
+}
+
+header .container {
+    display: flex;
+    background: #232536;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+}
+
+.hamburger .line {
+    height: 3px;
+    width: 30px;
+    margin-bottom: 4px;
+    background-color: #fff;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 0px;
+    height: 100vh;
+    background-color: #232536;
+    gap: 10px;
+    overflow: hidden;
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.nav-bar li {
+    margin-top: 20px;
+    transition: 0.4s;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav-bar li a {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 28px;
+}
+
+.nav-bar.active {
+    width: 210px;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.li-button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    max-width: 200px;
+    width: 100%;
+    height: 36px;
+}
+
+.li-button a {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 1.125em;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #232536 !important;
+}
+
+/*! ---------------------------HAMBURGER MENU-------------------------------- */
+
+
+
+
+/* ---------------------------PAGE 1-------------------------------- */
+
+.h2 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+
+.page-1 {
+    background: #F4F0F8;
+    padding: 10px 0;
+}
+
+.page-1-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.page-1-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page-1-col img {
+    width: 100%;
+    height: 359px;
+    object-fit: cover;
+
+}
+
+.page-1-col #head {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
+
+.coloroful-text {
+    color: #4C4C4C;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: .875em;
+}
+
+.coloroful-text span {
+    color: #592EA9;
+}
+
+.p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+
+.button {
+    max-width: 204px;
+    width: 100%;
+    height: 56px;
+    gap: 12px;
+    padding: 16px 48px;
+    background: #FFD050;
+    border: 0;
+
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #232536;
+}
+
+
+/** ---------------------------PAGE 1 END-------------------------------- */
+
+
+
+/* ---------------------------PAGE 2 -------------------------------- */
+
+.page-2-header h1 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -2px;
+    color: #232536;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.card-wrapper{
+    max-width: 1147px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-col{
+    width: 100%;
+}
+
+.card-col img{
+    width: 100%;
+    height: 318px;
+    object-fit: cover;
+
+}
+
+
+.card-col2{
+    max-width: 624px;
+    width: 100%;
+    min-height: 208px;
+}
+
+.end-text-wrapper span:first-child{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6D6E76;
+}
+.end-text-wrapper span:last-child{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.75em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #232536;
+}
+.end-text-wrapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+.page-2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** ---------------------------PAGE 2 END-------------------------------- */
+
+.choose-category-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+card-wrapper {
+    margin-top: 48px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    max-width: 48px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #FBF6EA;
+    margin-bottom: 20px;
+}
+
+.card:nth-child(2) {
+    background: #FFD050;
+}
+
+.card {
+    min-width: 10px;
+    min-height: 230px;
+    padding: 32px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d4d6;
+}
+
+
+.card h3 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.75em;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.nine-of-page {
+    max-width: 414px;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.nine-of-page .button {
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+
+footer {
+    min-height: 560px;
+    background: #232536;
+}
+
+.logo {
+    min-width: 143px;
+}
+
+.footer-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-nav-bar {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-nav-bar li a {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF !important;
+}
+
+.footer-center {
+    margin: auto;
+    margin-top: 85px;
+    max-width: 1280px;
+    width: 100%;
+    min-height: 256px;
+    background-color: #2e3040;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px;
+}
+
+.footer-center h2 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    max-width: 562px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.footer-center input {
+    max-width: 323px;
+    width: 100%;
+    height: 56px;
+    background: transparent;
+    border: 1px solid #4c4c4c;
+    outline: none;
+
+    font-family: 'Inter';
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    color: #6D6E76;
+}
+
+
+.input-button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-button-wrapper .button {
+    margin: 0;
+}
+
+
+.footer-end {
+    margin-top: 48px;
+}
+
+
+
+
+.footer-end-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fcol {
+    text-align: center;
+}
+
+.footer-end-text-wrapper .p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.75em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer-socials-wrapper {
+    display: flex;
+    gap: 26px;
+}
+
+
+
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+/** ----------------------FOOTER---------------------------- */
+
+/*!-------------------------Burger menu-------------------------------------- */
+@media (min-width:768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-bar {
+        position: inherit;
+        top: inherit;
+        right: inherit;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow: inherit;
+        height: inherit;
+        width: 560px;
+        opacity: 1;
+        gap: 20px;
+    }
+
+    .nav-bar.active {
+        width: 560px;
+    }
+
+    .nav-bar li {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+
+    .li-button {
+        justify-content: center;
+    }
+
+    .for-pc {
+        display: block;
+    }
+
+    .for-mobile-not-pc {
+        display: none;
+    }
+
+    /*!-----------------------Burger Menu------------------------------------ */
+
+    /* ---------------------------PAGE 1-------------------------------- */
+
+    .page-1{
+        padding: 95px 0;
+    }
+    .page-1-col {
+        max-width: 624px;
+    }
+
+    .page-1-col img {
+        max-width: 515px;
+    }
+    .h2 {
+        font-size: 2.25rem;
+    }
+    .page-1-row {
+        flex-direction: row;
+        gap: 120px;
+    }
+    /** ---------------------------PAGE 1 END-------------------------------- */
+    /* ---------------------------PAGE 2222222222--------------------------- */
+    
+
+    .page-2-header h1 {
+        font-size: 3em;
+    }
+
+    .card-col img{
+        max-width: 490px;
+        width: 100%;
+    }
+
+    .card-wrapper{
+        flex-direction: row;
+        text-align: inherit;
+    }
+
+
+
+    /** ---------------------------PAGE 2 END-------------------------------- */
+
+
+    .choose-category-wrapper {
+        margin-top: 128px;
+    }
+    .nine-of-page {
+        margin-top: 128px;
+        margin-bottom: 128px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*! ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+
+    .footer-center h2 {
+        font-size: 2.25em;
+        margin: 0;
+        ;
+    }
+
+    .footer-center {
+        flex-direction: row;
+        padding: 60px;
+    }
+
+
+    .footer-header-wrapper {
+        flex-direction: row;
+        align-items: inherit;
+        justify-content: space-between;
+    }
+
+    .footer-nav-bar {
+        margin: 0;
+    }
+
+    .footer-nav-bar li a {
+        font-size: 1em !important;
+    }
+
+
+    .footer-end-text-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .input-button-wrapper input {
+        padding-left: 20px;
+    }
+
+    .fcol {
+        text-align: inherit;
+    }
+
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+    /** ----------------------FOOTER---------------------------- */
+}
