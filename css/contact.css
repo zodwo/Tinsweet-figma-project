@@ -26,9 +26,11 @@
     font-weight: 700;
     font-size: 1.5625em;
 }
+
 a .logo {
     color: #fff;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -99,6 +101,10 @@ header .container {
 }
 
 .li-button a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700 !important;
@@ -110,59 +116,7 @@ header .container {
 }
 
 /*! ---------------------------HAMBURGER MENU-------------------------------- */
-
-
-
-
-/* ---------------------------PAGE 1-------------------------------- */
-
-.h2 {
-    font-family: 'Sen';
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 48px;
-    letter-spacing: -2px;
-    color: #232536;
-}
-
-
-.page-1 {
-    background: #F4F0F8;
-    padding: 10px 0;
-}
-
-.page-1-row {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    gap: 20px;
-}
-
-.page-1-col {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.page-1-col .button{
-    margin: auto;
-}
-.page-1-col img {
-    width: 100%;
-    height: 359px;
-    object-fit: cover;
-
-}
-
-.page-1-col #head {
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 1em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #232536;
-}
-
+/* ----------------------------------Default class--------------------------- */
 .coloroful-text {
     color: #4C4C4C;
     font-family: 'Inter';
@@ -182,9 +136,16 @@ header .container {
     color: #6D6E76;
 }
 
+.h2 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
 
 .button {
-    max-width: 207px;
     width: 100%;
     height: 56px;
     gap: 12px;
@@ -200,167 +161,177 @@ header .container {
     color: #232536;
 }
 
+/* ----------------------------------Default class---------------------------*/
 
-/** ---------------------------PAGE 1 END-------------------------------- */
+.main-page {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+}
+
+.page-header {
+    margin-top: 128px;
+    margin-bottom: 68px;
+}
+
+.head-text {
+    text-align: center;
+}
 
 
+.head-text span {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
 
-/* ---------------------------PAGE 2 -------------------------------- */
-
-.page-2-header h1 {
+h1 {
     font-family: 'Sen';
     font-weight: 700;
     font-size: 2em;
+    line-height: 64px;
+    text-align: center;
     letter-spacing: -2px;
     color: #232536;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #d0d0d3;
+
 }
 
-.card-wrapper a{
-    max-width: 1147px;
+.page-center {
+    max-width: 768px;
     width: 100%;
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-}
-.card-wrapper {
-    max-width: 1147px;
-    width: 100%;
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-}
-.card-col {
-    width: 100%;
-}
-
-.card-col img {
-    width: 100%;
-    height: 318px;
-    object-fit: cover;
-
+    min-height: 240px;
+    background: #592EA9;
 }
 
 
-.card-col2 {
-    max-width: 624px;
-    width: 100%;
-    min-height: 208px;
+.p2 {
+    font-family: 'Inter';
+    font-size: 1em;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
 }
 
-.end-text-wrapper a span:first-child {
+h5 {
     font-family: 'Sen';
     font-weight: 700;
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6D6E76;
+    font-size: 1.25em;
+    line-height: 32px;
+    color: #FFFFFF;
+
 }
 
-.end-text-wrapper  a span:last-child {
-    font-family: 'Sen';
-    font-weight: 700;
-    font-size: 1.75em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -1px;
-    color: #232536;
+.c-header {
+    font-family: 'Inter';
+    font-size: .875em;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    border-bottom: 1px solid #777777;
+    height: 40px;
+    margin-bottom: 20px;
+
 }
 
-.end-text-wrapper a {
+.page-center {
+    max-width: 768px;
+    width: 100%;
     display: flex;
-    gap: 10px;
-    margin-top: 60px;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-.page-2 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/** ---------------------------PAGE 2 END-------------------------------- */
-
-.choose-category-wrapper {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-bottom: 110px;
 }
 
-
-
-.icon {
-    max-width: 48px;
+.row {
+    max-width: 768px;
     width: 100%;
-    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col {
+    max-width: 294px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    background: #FBF6EA;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
-.card:nth-child(2) {
+.col.cl2 {
+    max-width: 294.35px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.footer-page {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-row input {
+    width: 100%;
+    height: 76px;
+    padding-left: 30px;
+}
+
+.list-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.button2 {
+    width: 100%;
+    height: 56px;
+    gap: 12px;
+    padding: 16px 48px;
     background: #FFD050;
-}
+    border: 0;
 
-.card {
-    min-width: 10px;
-    min-height: 230px;
-    padding: 32px;
-    margin-bottom: 20px;
-    border: 1px solid #d3d4d6;
-}
-
-
-.card h3 {
     font-family: 'Sen';
     font-weight: 700;
-    font-size: 1.75em;
-    line-height: 40px;
-    letter-spacing: -1px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #232536;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-bottom: 200px;
 }
 
 
-.nine-of-page {
-    max-width: 414px;
-    padding: 0 20px;
-    width: 100%;
-    margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+#msg {
+    padding-bottom: 100px;
+    padding-top: 20px;
 }
-.nine-of-page .button {
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+form input::placeholder {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 1.75em;
+    color: #232536;
 }
+
+
+
 
 
 
@@ -473,7 +444,7 @@ footer {
 }
 
 @media (max-width:390px) {
-    .input-button-wrapper{
+    .input-button-wrapper {
         flex-direction: column;
     }
 }
@@ -485,7 +456,7 @@ footer {
 
 
 
-.footer-end-text-wrapper  {
+.footer-end-text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -510,6 +481,7 @@ footer {
     display: flex;
     gap: 26px;
 }
+
 
 
 /** ----------------------FOOTER---------------------------- */
@@ -565,112 +537,31 @@ footer {
 
     /*!-----------------------Burger Menu------------------------------------ */
 
-    /* ---------------------------PAGE 1-------------------------------- */
 
-    .page-1 {
-        padding: 95px 0;
-    }
-
-    .page-1-col {
-        max-width: 624px;
-    }
-
- 
-
-    .page-1-col img {
-        max-width: 515px;
-    }
-    .page-1-col .button{
-        margin: inherit;
-    }
-    .h2 {
-        font-size: 2.25rem;
-    }
-
-    .page-1-row {
-        flex-direction: row;
-        gap: 120px;
-    }
-
-    /** ---------------------------PAGE 1 END-------------------------------- */
-    /* ---------------------------PAGE 2222222222--------------------------- */
-
-
-    .page-2-header h1 {
+    h1 {
         font-size: 3em;
-        
     }
 
-    .card-col img {
-        max-width: 490px;
-        width: 100%;
+    .row {
+        flex-direction: row;
     }
 
-    .card-wrapper a {
-        flex-direction: row;
-        text-align: inherit;
-    }
-    .card-wrapper  {
-        flex-direction: row;
-        text-align: inherit;
-    }
-    .page-2 .container {
+    .col {
         align-items: inherit;
+        justify-content: inherit;
+        margin: auto;
+    }
+
+    .col.cl2 {
+        max-width: 294.35px;
+        width: 100%;
+        margin-top: inherit;
     }
 
 
-
-    /** ---------------------------PAGE 2 END-------------------------------- */
-
-
-    .choose-category-wrapper {
-        margin-top: 128px;
+    .row {
+        padding: 48px;
     }
-
-    .nine-of-page {
-        margin-top: 128px;
-        margin-bottom: 128px;
-    }
-
-
-
-
-    .end-text-wrapper a {
-        margin-bottom: 0;
-    }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -743,4 +634,30 @@ footer {
     /** ----------------------FOOTER---------------------------- */
     /** ----------------------FOOTER---------------------------- */
     /** ----------------------FOOTER---------------------------- */
+}
+
+
+/* Hovers */
+.footer-nav-bar a:hover,
+.nav-bar a:hover,
+.logo:hover {
+    color: #ffd050 !important;
+}
+
+.button,
+.button2 {
+    cursor: pointer;
+}
+
+.button:hover,
+.button2:hover,
+.li-button:hover
+{
+background-color: #2a2536;
+border: 1px solid rgb(80, 236, 8) !important;
+color: #fff !important;
+}
+
+.footer-socials-wrapper img {
+    cursor: pointer;
 }

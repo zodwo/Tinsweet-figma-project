@@ -131,6 +131,7 @@ header .container {
 }
 
 .button a{
+    width: 100%;
     color:  #232536;
 }
 
@@ -190,7 +191,7 @@ header .container {
 }
 
 .button {
-    width: 204px;
+    width: 207px;
     height: 56px;
     background: #FFD050;
     display: flex;
@@ -636,15 +637,22 @@ header .container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     min-width: 10px;
     gap: 10px;
 }
 
+@media (max-width:438px) {
+.logo-img-wrapper {
+    justify-content: space-between;
+}
+}
+
 .logo-img-wrapper img {
     width: 120px;
     min-width: 120px;
+    margin: auto;
+    cursor: pointer;
 }
 
 /** ----------------------PAGE WRAPPER 7 END---------------------------- */
@@ -664,12 +672,10 @@ header .container {
 
 .bottom-text-wrapper {
     max-width: 420px;
+    text-align: center;
     width: 100%;
 }
 
-.bottom-header {
-    text-align: center;
-}
 
 .bottom-header span {
     font-family: 'Inter';
@@ -1171,7 +1177,9 @@ footer {
 
     /** ----------------------PAGE WRAPPER 7 END---------------------------- */
 
-
+    .bottom-text-wrapper {
+        text-align: inherit;
+    }
     /* ----------------------PAGE WRAPPER 8 ---------------------------- */
 
 
@@ -1192,6 +1200,7 @@ footer {
 
     .bottom-col {
         max-width: 349px;
+        align-items: baseline !important;
     }
 
     .bottom-header {
@@ -1275,3 +1284,5 @@ footer {
 
 
 }
+
+

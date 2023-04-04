@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Finsweet Blog</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <div class="logo">{ Finsweet</div>
+            </a>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="li-button"><a href="https://github.com/zodwo" target="_blank">Subscribe</a></li>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-page">
+            <div class="page-header">
+                <div class="head-text">
+                    <span>Contact us</span>
+                    <h1>Let’s Start a Conversation</h1>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                </div>
+            </div>
+            <div class="page-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="c-header">Working hours</div>
+                        <h5>Monday To Friday</h5>
+                        <h5>9:00 AM to 8:00 PM </h5>
+                        <p class="p2">Our Support Team is available 24/7</p>
+                    </div>
+                    <div class="col cl2">
+                        <div class="c-header c2">Contact Us</div>
+                        <h5>022 7963 2925</h5>
+                        <p class="p2">senanm260@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-page">
+            <div class="input-row">
+                <form action="">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input list="abc" id="ab" name="ab" placeholder="Query Related" required>
+                    <datalist id="abc">
+                        <option value="We are a team "></option>
+                        <option value="Our team of creatives"></option>
+                        <option value="Why we started this Blog"></option>
+                        <option value="Featured Post"></option>
+                    </datalist>
+                    <input type="text" id="msg" placeholder="Message">
+                    <button class="button2">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-header-wrapper">
+                <a href="index.html">
+                    <div class="logo">{ Finsweet</div>
+                </a>
+
+                <nav class="footer-nav-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </nav>
+            </div>
+            <div class="footer-center">
+                <h2>Subscribe to our news letter to get latest updates and news</h2>
+                <div class="input-button-wrapper">
+                    <input type="email" placeholder="Enter Your Email">
+                    <a href="https://github.com/zodwo" class="button" target="_blank"> Subscribe </a>
+                </div>
+            </div>
+
+            <div class="footer-end">
+                <div class="footer-end-text-wrapper">
+                    <div class="fcol">
+                        <p class="p">Finstreet 118 2561 Fintown</p>
+                        <p class="p">Hello@finsweet.com 020 7993 2905</p>
+                    </div>
+                    <div class="fcol">
+                        <div class="footer-socials-wrapper">
+                            <img src="img/icons/footer-icon/f.svg">
+                            <img src="img/icons/footer-icon/t.svg">
+                            <img src="img/icons/footer-icon/i.svg">
+                            <img src="img/icons/footer-icon/l.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active")
+        }
+    </script>
+</body>
+
+</html>

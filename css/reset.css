@@ -1,17 +1,60 @@
-*{
-    box-sizing: border-box !important;
+* {
+	box-sizing: border-box !important;
 }
-html, body, div, span,iframe,
-h1, h2, h3, h4, h5, h6, p, pre,
-a,  code,
-img, sub, sup,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details,
-figure, figcaption, footer, header, main, 
-menu, nav,  section, summary{
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+code,
+img,
+sub,
+sup,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -19,13 +62,79 @@ menu, nav,  section, summary{
 	vertical-align: baseline;
 }
 
-ol, ul,li{
+ol,
+ul,
+li {
 	list-style: none;
 }
-a{
-    text-decoration: none;
+
+a {
+	text-decoration: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Hovers */
+.footer-nav-bar a:hover,
+.nav-bar a:hover,
+.logo:hover {
+	color: #ffd050 !important;
+}
+
+.button a {
+	width: 100%;
+
+}
+
+.button,
+.button2 {
+	cursor: pointer;
+}
+
+.button a:visited {
+	color: #2a2536 !important;
+}
+
+
+.button:hover,
+.button2:hover,
+.li-button:hover,
+.button:hover a {
+	background-color: #2a2536;
+	border: 1px solid rgb(80, 236, 8) !important;
+	color: #fff !important;
+}
+
+.button:hover a {
+	border: 0 !important;
+}
+
+.footer-socials-wrapper img {
+	cursor: pointer;
+}
+
+.card-col:hover {
+	background-color: #f8f4e97a;
+}
+
+.card-wrapper .card {
+	cursor: pointer;
+}
+
+.card-wrapper .card:hover:not(:nth-child(2)) {
+	background-color: #c4c4c596;
+}
+.li-button {
+	width: 100% !important;
+	padding: 0 !important;
+
+}
+.li-button a{
+	width: 100% !important;
+	display: flex;
+    align-items: center;
+	justify-content: center;
 }
