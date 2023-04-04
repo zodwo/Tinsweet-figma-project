@@ -891,6 +891,9 @@ footer {
     align-items: center;
     gap: 20px;
 }
+.input-button-wrapper input {
+    padding-left: 10px;
+}
 
 .input-button-wrapper .button {
     margin: 0;
@@ -1265,9 +1268,7 @@ footer {
         align-items: center;
     }
 
-    .input-button-wrapper input {
-        padding-left: 20px;
-    }
+
 
     .fcol{
         text-align: inherit;
