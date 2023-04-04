@@ -403,7 +403,10 @@ header .container {
     flex-direction: column;
     gap: 20px;
 }
-
+.img-row-1.b{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 .img-row-wrapper{
     display: flex;
@@ -411,7 +414,9 @@ header .container {
     gap: 50px;
 }
 
-
+.page-2{
+    margin-top: 60px;
+}
 
 
 
@@ -725,7 +730,10 @@ footer {
 .col-text{
     align-items: flex-end;
 }
-
+.img-row-1.b{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
