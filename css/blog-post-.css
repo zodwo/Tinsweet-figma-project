@@ -26,9 +26,11 @@
     font-weight: 700;
     font-size: 1.5625em;
 }
-a .logo {
+
+.logo {
     color: #fff;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -111,58 +113,7 @@ header .container {
 
 /*! ---------------------------HAMBURGER MENU-------------------------------- */
 
-
-
-
-/* ---------------------------PAGE 1-------------------------------- */
-
-.h2 {
-    font-family: 'Sen';
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 48px;
-    letter-spacing: -2px;
-    color: #232536;
-}
-
-
-.page-1 {
-    background: #F4F0F8;
-    padding: 10px 0;
-}
-
-.page-1-row {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    gap: 20px;
-}
-
-.page-1-col {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.page-1-col .button{
-    margin: auto;
-}
-.page-1-col img {
-    width: 100%;
-    height: 359px;
-    object-fit: cover;
-
-}
-
-.page-1-col #head {
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 1em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #232536;
-}
-
+/* ----------------------------------Default class--------------------------- */
 .coloroful-text {
     color: #4C4C4C;
     font-family: 'Inter';
@@ -182,6 +133,14 @@ header .container {
     color: #6D6E76;
 }
 
+.h2 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
 
 .button {
     max-width: 204px;
@@ -200,144 +159,155 @@ header .container {
     color: #232536;
 }
 
+/* ----------------------------------Default class---------------------------- *
+/* ----------------------------------page-1-----------------------------------*/
 
-/** ---------------------------PAGE 1 END-------------------------------- */
+.user-card-wrapper {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 568px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
 
+.user-wrapper {
+    display: flex;
+    gap: 10px;
+}
 
-
-/* ---------------------------PAGE 2 -------------------------------- */
-
-.page-2-header h1 {
+.user-name span {
     font-family: 'Sen';
     font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -1px;
+    opacity: 0.87;
+}
+
+.h1 {
+    font-family: 'Sen';
     font-size: 2em;
     letter-spacing: -2px;
     color: #232536;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #d0d0d3;
+    width: 100%;
+    text-align: center;
 }
 
-.card-wrapper a{
-    max-width: 1147px;
-    width: 100%;
-    margin-top: 60px;
+.icon {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    gap: 30px;
-}
-.card-wrapper {
-    max-width: 1147px;
-    width: 100%;
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-}
-.card-col {
-    width: 100%;
+    gap: 1em;
 }
 
-.card-col img {
-    width: 100%;
-    height: 318px;
-    object-fit: cover;
-
-}
-
-
-.card-col2 {
-    max-width: 624px;
-    width: 100%;
-    min-height: 208px;
-}
-
-.end-text-wrapper a span:first-child {
+.icon h4 {
     font-family: 'Sen';
     font-weight: 700;
     font-size: 1.5em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6D6E76;
-}
-
-.end-text-wrapper  a span:last-child {
-    font-family: 'Sen';
-    font-weight: 700;
-    font-size: 1.75em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -1px;
     color: #232536;
 }
 
-.end-text-wrapper a {
-    display: flex;
-    gap: 10px;
-    margin-top: 60px;
-    justify-content: center;
-    margin-bottom: 100px;
+/*? ----------------------------------page-1 end--------------------------- */
+/* ----------------------------------page-2-----------------------------------*/
+.page-2 {
+    margin-top: 64px;
 }
 
-.page-2 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/** ---------------------------PAGE 2 END-------------------------------- */
-
-.choose-category-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-
-
-.icon {
-    max-width: 48px;
+.page-2-img {
+    margin: auto;
+    background-image: url(/img/blog/bg4.jpg);
+    background-position: 85%;
+    background-size: cover;
+    max-width: 1280px;
     width: 100%;
-    height: 48px;
+    height: 582px;
+}
+
+.text-center-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-wrap {
+    max-width: 843px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.list-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-wrap li {
+    list-style-type: disc;
+    gap: 10px;
+}
+
+.list-wrap li span {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #161722;
+    opacity: 0.78;
+
+}
+
+/*? ----------------------------------page-2 end------------------------------*/
+/* ----------------------------------page-3-----------------------------------*/
+
+.page-3-card-wrapper-all-cards {
+    margin-top: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    background: #FBF6EA;
-    margin-bottom: 20px;
+    gap: 30px;
 }
 
-.card:nth-child(2) {
-    background: #FFD050;
+.page-3-card {
+    width: 100%;
+    min-height: 606px;
+    margin: auto;
+    text-align: center;
+
 }
 
-.card {
-    min-width: 10px;
-    min-height: 230px;
-    padding: 32px;
-    margin-bottom: 20px;
-    border: 1px solid #d3d4d6;
+.card-3-img img {
+    width: 100%;
+    height: 318px;
+    object-fit: cover;
 }
 
-
-.card h3 {
+.page-3-card h3 {
     font-family: 'Sen';
     font-weight: 700;
     font-size: 1.75em;
-    line-height: 40px;
     letter-spacing: -1px;
     color: #232536;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 
+.card-3-description-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page-3-card-wrapper-header {
+    display: flex;
+    justify-content: center;
+}
+
+/*? ----------------------------------page-3 end------------------------------*/
 .nine-of-page {
     max-width: 414px;
     padding: 0 20px;
@@ -361,6 +331,8 @@ header .container {
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 
@@ -473,7 +445,7 @@ footer {
 }
 
 @media (max-width:390px) {
-    .input-button-wrapper{
+    .input-button-wrapper {
         flex-direction: column;
     }
 }
@@ -485,7 +457,7 @@ footer {
 
 
 
-.footer-end-text-wrapper  {
+.footer-end-text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -510,6 +482,7 @@ footer {
     display: flex;
     gap: 26px;
 }
+
 
 
 /** ----------------------FOOTER---------------------------- */
@@ -565,67 +538,49 @@ footer {
 
     /*!-----------------------Burger Menu------------------------------------ */
 
-    /* ---------------------------PAGE 1-------------------------------- */
-
-    .page-1 {
-        padding: 95px 0;
-    }
-
-    .page-1-col {
-        max-width: 624px;
-    }
-
- 
-
-    .page-1-col img {
-        max-width: 515px;
-    }
-    .page-1-col .button{
-        margin: inherit;
-    }
-    .h2 {
-        font-size: 2.25rem;
-    }
-
-    .page-1-row {
-        flex-direction: row;
-        gap: 120px;
-    }
-
-    /** ---------------------------PAGE 1 END-------------------------------- */
-    /* ---------------------------PAGE 2222222222--------------------------- */
-
-
-    .page-2-header h1 {
+    /* Page 1 */
+    .h1 {
         font-size: 3em;
-        
-    }
-
-    .card-col img {
-        max-width: 490px;
-        width: 100%;
-    }
-
-    .card-wrapper a {
-        flex-direction: row;
         text-align: inherit;
     }
-    .card-wrapper  {
-        flex-direction: row;
-        text-align: inherit;
-    }
-    .page-2 .container {
-        align-items: inherit;
+
+    .user-card-wrapper {
+        margin-top: 128px;
+        align-items: initial;
     }
 
+    /* Page 1 end */
 
 
-    /** ---------------------------PAGE 2 END-------------------------------- */
+    /* Page 3 */
 
-
-    .choose-category-wrapper {
+    .page-3 {
         margin-top: 128px;
     }
+
+    .page-3-card-wrapper-all-cards {
+        flex-direction: row;
+    }
+
+    .page-3-card {
+        max-width: 405px;
+        width: 100%;
+        min-height: 606px;
+        text-align: inherit;
+    }
+
+    .card-3-img img {
+        width: 100%;
+        height: 318px;
+        object-fit: cover;
+    }
+
+    .page-3-card-wrapper-header {
+        justify-content: inherit
+    }
+
+    /*? Page 3 end */
+
 
     .nine-of-page {
         margin-top: 128px;
@@ -633,58 +588,8 @@ footer {
     }
 
 
-
-
-    .end-text-wrapper a {
-        margin-bottom: 0;
-    }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*! ----------------------FOOTER---------------------------- */
+
     /** ----------------------FOOTER---------------------------- */
     /** ----------------------FOOTER---------------------------- */
     /** ----------------------FOOTER---------------------------- */
